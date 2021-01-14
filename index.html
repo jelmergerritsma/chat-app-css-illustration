@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Frontend Mentor | Chat app CSS illustration</title>
+</head>
+
+<body>
+  <main>
+    <div class="chat-app">
+      <div class="phone">
+        <div class="phone--container">
+          <div class="phone--container--header">
+            <div class="phone--container--header--content">
+              <div class="phone--container--header__back">
+                <button></button>
+              </div>
+              <div class="phone--container--header__avatar">
+                <picture>
+                  <img src="/images/avatar.jpg" alt="Samuel Green">
+                </picture>
+              </div>
+              <div class="phone--container--header__user">
+                <div class="phone--container--header__user__name">Samuel Green</div>
+                <div class="phone--container--header__user__status">Available to Walk</div>
+              </div>
+              <div class="phone--container--header__settings">
+                <button>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="phone--container--chat">
+            <div class="chat-bubble chat-bubble__left">That sounds great. I’d be happy with that.</div>
+            <div class="chat-bubble chat-bubble__left">Could you send over some pictures of your dog, please?</div>
+            <div class="chat-bubble chat-bubble__right chat-bubble__images">
+              <picture>
+                <img src="/images/dog-image-1.jpg" alt="">
+              </picture>
+              <picture>
+                <img src="/images/dog-image-2.jpg" alt="">
+              </picture>
+              <picture>
+                <img src="/images/dog-image-3.jpg" alt="">
+              </picture>
+            </div>
+            <div class="chat-bubble chat-bubble__right">Here are a few pictures. She’s a happy girl!</div>
+            <div class="chat-bubble chat-bubble__right">Can you make it?</div>
+            <div class="chat-bubble chat-bubble__left">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+            <div class="chat-bubble chat-bubble__left chat-bubble__payment">
+              <label for="one">
+                <input type="radio" name="payment" id="one">
+                <div class="checkmark"></div>
+                <div class="chat-bubble__payment__text">30 minute walk</div>
+                <div class="chat-bubble__payment__price">$29</div>
+              </label>
+            </div>
+            <div class="chat-bubble chat-bubble__left chat-bubble__payment">
+              <label for="two">
+                <input type="radio" name="payment" id="two">
+                <div class="checkmark"></div>
+                <div class="chat-bubble__payment__text">1 hour walk</div>
+                <div class="chat-bubble__payment__price">$49</div>
+              </label>
+            </div>
+          </div>
+          <div class="phone--container--send">
+            <div class="phone--container--send__input-wrapper">
+              <input type="text" placeholder="Type a message…">
+              <button></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Simple booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
